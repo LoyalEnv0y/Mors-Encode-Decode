@@ -7,7 +7,7 @@ import (
 )
 
 var (
-	// ToMorse to store the rune values of latin characters with their counterpart morse codes
+	// ToMorse is to store the rune values of latin characters with their counterpart morse codes
 	ToMorse = map[rune]string{'A': ".-", 'B': "-...", 'C': "-.-.", 'D': "-..", 'E': ".",
 		'F': "..-.", 'G': "--.", 'H': "....", 'I': "..", 'J': ".---", 'K': "-.-", 'L': ".-..",
 		'M': "--", 'N': "-.", 'O': "---", 'P': ".--.", 'Q': "--.-", 'R': ".-.", 'S': "...",
@@ -17,7 +17,7 @@ var (
 		'?': "..--..", '!': "-.-.--", '/': "-..-.", '(': "-.--.", ')': "-.--.-", '&': ".-...",
 		':': "---...", '=': "-...-", '+': ".-.-.", '-': "-....-", '@': ".--.-.", ' ': "/",
 	}
-	// ToLatin to store the each morse code's counterpart latin character
+	// ToLatin is to store the each morse code's counterpart latin character
 	ToLatin = map[string]rune{".-": 'A', "-...": 'B', "-.-.": 'C', "-..": 'D', ".": 'E',
 		"..-.": 'F', "--.": 'G', "....": 'H', "..": 'I', ".---": 'J', "-.-": 'K', ".-..": 'L',
 		"--": 'M', "-.": 'N', "---": 'O', ".--.": 'P', "--.-": 'Q', ".-.": 'R', "...": 'S',
