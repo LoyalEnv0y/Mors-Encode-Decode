@@ -3,7 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"mors/morse"
+	"github.com/LoyalEnv0y/Mors-Encode-Decode/morse"
 	"os"
 )
 
